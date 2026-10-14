@@ -1,0 +1,11 @@
+[package]
+name = "skelly-wgpu"
+description = "Reference wgpu renderer for Skelly: blend modes, masks, effects"
+license = "MIT"
+version.workspace = true
+edition.workspace = true
+repository.workspace = true
+
+[dependencies]
+skelly-format = { path = "../skelly-format" }
+skelly-runtime = { path = "../skelly-runtime" }

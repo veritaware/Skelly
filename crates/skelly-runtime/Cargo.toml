@@ -1,0 +1,10 @@
+[package]
+name = "skelly-runtime"
+description = "Renderer-agnostic Skelly runtime: animation evaluation, skinning, constraints"
+license = "MIT"
+version.workspace = true
+edition.workspace = true
+repository.workspace = true
+
+[dependencies]
+skelly-format = { path = "../skelly-format" }

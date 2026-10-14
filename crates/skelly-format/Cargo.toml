@@ -1,0 +1,9 @@
+[package]
+name = "skelly-format"
+description = "Skelly skeletal animation data format: schema, serialization, versioning"
+license = "MIT"
+version.workspace = true
+edition.workspace = true
+repository.workspace = true
+
+[dependencies]
