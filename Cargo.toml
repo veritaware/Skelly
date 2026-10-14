@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/skelly-format",
+    "crates/skelly-runtime",
+    "crates/skelly-wgpu",
+    "crates/skelly-editor",
+]
+
+[workspace.package]
+version = "0.0.1"
+edition = "2024"
+repository = "https://github.com/veritaware/Skelly"

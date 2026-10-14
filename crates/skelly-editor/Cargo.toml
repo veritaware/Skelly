@@ -1,0 +1,12 @@
+[package]
+name = "skelly-editor"
+description = "Skelly editor: 2D skeletal animation authoring tool"
+license = "GPL-3.0-or-later"
+version.workspace = true
+edition.workspace = true
+repository.workspace = true
+
+[dependencies]
+skelly-format = { path = "../skelly-format" }
+skelly-runtime = { path = "../skelly-runtime" }
+skelly-wgpu = { path = "../skelly-wgpu" }
